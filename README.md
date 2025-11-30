@@ -73,19 +73,23 @@ cd NoteFlow
 cd backend
 npm install
 
-- Create a .env file in backend/:
+- Create a .env file in backend
+```bash
 PORT=8000
 MONGO_URL=<your-mongodb-connection-string>
 JWT_SECRET=<your-secret-key>
+```
 
 - Start backend server:
 npm run dev
 
 3. Setup Frontend
 
+```bash
 cd frontend
 npm install
 npm start
+```
 
 ---
 
