@@ -9,6 +9,7 @@ A modern **full-stack note-taking application** built with **MERN** (MongoDB, Ex
 - [Features](#features)  
 - [Tech Stack](#tech-stack)   
 - [Setup & Installation](#setup--installation)
+- [Running the Project](#running-the-project)
 - [Usage](#usage) 
 
 ---
