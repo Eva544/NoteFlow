@@ -59,8 +59,12 @@ webapp/
 
 ### **1. Clone the repository**
 
+```bash
+
 git clone https://github.com/Eva544/NoteFlow.git
-cd webapp
+cd NoteFlow
+
+```
 
 ---
 
@@ -71,7 +75,7 @@ npm install
 
 - Create a .env file in backend/:
 PORT=8000
-MONGO_URI=<your-mongodb-connection-string>
+MONGO_URL=<your-mongodb-connection-string>
 JWT_SECRET=<your-secret-key>
 
 - Start backend server:
