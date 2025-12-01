@@ -199,15 +199,16 @@ Create a new user.
   "success": true,
   "message": "User signed in successfully",
   "user": {
-    "_id": "user_id",
     "email": "john@example.com",
     "username": "john123",
-    "password": "<hashed>"
+    "password": "<hashed>",
+    "createdAt":  "string (ISO 8601 date)",
+    "_id": "user_id",
   }
 }
 ```
 
-## **Request Body**
+## **User Signup - Existing User Response**
 
 ```bash
  {
@@ -225,7 +226,7 @@ token = <jwt_token>
 ---
 ### **2. POST /auth/login**
 
-Create a new user.
+
 
 ## **Request Body**
 
@@ -311,8 +312,9 @@ Requires token cookie.
   "success": true,
   "message": "Profile updated",
   "user": {
-    "username": "newname",
-    "email": "newemail@example.com"
+    "_id": "user_id",
+    "email": "newemail@example.com",
+    "username": "newname"
   }
 }
 ```
@@ -349,6 +351,7 @@ All Note APIs require the token cookie.
 ## **1. GET /notes/**
 
 Get all notes for logged-in user.
+
 
 ## **Response Example**
 
